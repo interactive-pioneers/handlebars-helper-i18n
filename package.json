@@ -1,8 +1,8 @@
 {
   "name": "handlebars-helper-i18n",
   "description": "{{i18n}} handlebars helper",
-  "version": "0.1.0",
-  "homepage": "https://github.com/helpers/handlebars-helper-i18n",
+  "version": "0.1.0-ip",
+  "homepage": "https://github.com/interactive-pioneers/handlebars-helper-i18n",
   "author": {
     "name": "Laurent Goderre",
     "url": "https://github.com/LaurentGoderre"
@@ -15,19 +15,23 @@
     {
       "name": "Brian Woodward",
       "url": "https://github.com/doowb"
+    },
+    {
+      "name": "Ain Tohvri",
+      "url": "https://github.com/ain"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/helpers/handlebars-helper-i18n.git"
+    "url": "https://github.com/interactive-pioneers/handlebars-helper-i18n.git"
   },
   "bugs": {
-    "url": "https://github.com/helpers/handlebars-helper-i18n/issues"
+    "url": "https://github.com/interactive-pioneers/handlebars-helper-i18n/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/helpers/handlebars-helper-i18n/blob/master/LICENSE-MIT"
+      "url": "https://github.com/interactive-pioneers/handlebars-helper-i18n/blob/master/LICENSE-MIT"
     }
   ],
   "main": "./index.js",
@@ -35,7 +39,7 @@
     "test": "npm test"
   },
   "devDependencies": {
-    "handlebars": "^2.0.0",
+    "handlebars": "~1.3.0",
     "should": "^4.0.4",
     "verb": "^0.2.6"
   },
